@@ -1,7 +1,7 @@
 function AtmWithDrawal() {
     let balance = parseFloat(prompt("Enter account balance:"));
     let amount = parseFloat(prompt("Enter withdrawal amount:"));
-    let pin = "1234"; // Example PIN
+    let pin = "1234"; 
     let enteredPin = prompt("Enter PIN:");
 
     if (enteredPin !== pin) return alert("Incorrect PIN");
